@@ -1,0 +1,381 @@
+[2020-12-04T10:02:49+08:00][sql] CONNECT:[ UseTime:0.048601s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[2020-12-04T10:02:49+08:00][sql] SHOW FULL COLUMNS FROM `cn_first` [ RunTime:0.123660s ]
+[2020-12-04T10:02:49+08:00][sql] SELECT * FROM `cn_first` WHERE  `id` > 0 [ RunTime:0.004022s ]
+[2020-12-04T10:02:49+08:00][sql] SELECT * FROM `cn_first` WHERE  `id` > 0 [ RunTime:0.000579s ]
+[2020-12-04T10:02:49+08:00][sql] SELECT * FROM `cn_first` WHERE  `id` > 0 [ RunTime:0.000675s ]
+[2020-12-04T10:45:13+08:00][error] [8]未定义变量: validate[D:\software\thinkphp6\tp\app\controller\Index.php:44]
+[2020-12-04T12:30:53+08:00][sql] CONNECT:[ UseTime:0.109685s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T12:30:53+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.064615s ]
+[2020-12-04T12:31:45+08:00][sql] CONNECT:[ UseTime:0.081453s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T12:31:45+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.054248s ]
+[2020-12-04T12:31:53+08:00][sql] CONNECT:[ UseTime:0.092466s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T12:31:53+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.061559s ]
+[2020-12-04T14:16:16+08:00][sql] CONNECT:[ UseTime:0.086578s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T14:16:16+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.059644s ]
+[2020-12-04T14:17:05+08:00][sql] CONNECT:[ UseTime:0.092856s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T14:17:05+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.062003s ]
+[2020-12-04T14:17:05+08:00][error] [8]未定义变量: firstModel[D:\software\thinkphp6\tp\app\controller\Index.php:50]
+[2020-12-04T14:17:16+08:00][sql] CONNECT:[ UseTime:0.096130s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T14:17:16+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.062930s ]
+[2020-12-04T14:17:16+08:00][error] [10500]method not exist:think\db\Query->text[D:\software\thinkphp6\tp\vendor\topthink\think-orm\src\db\BaseQuery.php:117]
+[2020-12-04T14:17:24+08:00][sql] CONNECT:[ UseTime:0.094133s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T14:17:24+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.062378s ]
+[2020-12-04T14:17:24+08:00][sql] SELECT * FROM `polyphone_pinyin` WHERE  `id` > 0 [ RunTime:0.091462s ]
+[2020-12-04T14:28:20+08:00][sql] CONNECT:[ UseTime:0.082446s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T14:28:20+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.053304s ]
+[2020-12-04T14:28:20+08:00][sql] SELECT `value`,`audio_url` FROM `polyphone_pinyin` WHERE  `id` > 0 [ RunTime:0.083967s ]
+[2020-12-04T14:29:15+08:00][sql] CONNECT:[ UseTime:0.099624s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T14:29:15+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.065458s ]
+[2020-12-04T14:29:15+08:00][error] [10500]method not exist:think\db\Query->text[D:\software\thinkphp6\tp\vendor\topthink\think-orm\src\db\BaseQuery.php:117]
+[2020-12-04T14:29:37+08:00][sql] CONNECT:[ UseTime:0.087011s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T14:29:37+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.057096s ]
+[2020-12-04T14:29:37+08:00][sql] SELECT `value`,`audio_url` FROM `polyphone_pinyin` WHERE  `id` > 0 [ RunTime:0.092530s ]
+[2020-12-04T14:29:37+08:00][error] [8]未定义数组索引: name[D:\software\thinkphp6\tp\app\controller\Index.php:52]
+[2020-12-04T14:30:21+08:00][sql] CONNECT:[ UseTime:0.100906s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T14:30:21+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.066620s ]
+[2020-12-04T14:30:21+08:00][sql] SELECT `value`,`audio_url` FROM `polyphone_pinyin` WHERE  `id` > 0 [ RunTime:0.099956s ]
+[2020-12-04T14:30:21+08:00][error] [8]未定义数组索引: name[D:\software\thinkphp6\tp\app\controller\Index.php:52]
+[2020-12-04T14:30:47+08:00][sql] CONNECT:[ UseTime:0.094540s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T14:30:47+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.059412s ]
+[2020-12-04T14:30:47+08:00][sql] SELECT `value`,`audio_url` FROM `polyphone_pinyin` WHERE  `id` > 0 [ RunTime:0.091261s ]
+[2020-12-04T14:31:09+08:00][sql] CONNECT:[ UseTime:0.076825s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T14:31:09+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.051926s ]
+[2020-12-04T14:31:09+08:00][sql] SELECT `value`,`audio_url` FROM `polyphone_pinyin` WHERE  `id` > 0 [ RunTime:0.076101s ]
+[2020-12-04T14:31:33+08:00][sql] CONNECT:[ UseTime:0.087805s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T14:31:33+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.058468s ]
+[2020-12-04T14:31:33+08:00][sql] SELECT `value`,`audio_url` FROM `polyphone_pinyin` WHERE  `id` > 0 [ RunTime:0.086105s ]
+[2020-12-04T14:31:33+08:00][error] [8]Array to string conversion[D:\software\thinkphp6\tp\app\controller\Index.php:53]
+[2020-12-04T14:32:30+08:00][sql] CONNECT:[ UseTime:0.083150s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T14:32:30+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.055283s ]
+[2020-12-04T14:32:30+08:00][sql] SELECT `value`,`audio_url` FROM `polyphone_pinyin` WHERE  `id` > 0 [ RunTime:0.082484s ]
+[2020-12-04T14:32:30+08:00][error] [8]Array to string conversion[D:\software\thinkphp6\tp\app\controller\Index.php:53]
+[2020-12-04T14:32:42+08:00][sql] CONNECT:[ UseTime:0.073153s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T14:32:42+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.048941s ]
+[2020-12-04T14:32:42+08:00][sql] SELECT `value`,`audio_url` FROM `polyphone_pinyin` WHERE  `id` > 0 [ RunTime:0.072583s ]
+[2020-12-04T14:32:42+08:00][error] [8]Array to string conversion[D:\software\thinkphp6\tp\app\controller\Index.php:53]
+[2020-12-04T14:32:58+08:00][sql] CONNECT:[ UseTime:0.085647s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T14:32:58+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.057017s ]
+[2020-12-04T14:32:58+08:00][sql] SELECT `value`,`audio_url` FROM `polyphone_pinyin` WHERE  `id` > 0 [ RunTime:0.084850s ]
+[2020-12-04T14:34:27+08:00][sql] CONNECT:[ UseTime:0.093695s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T14:34:27+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.065335s ]
+[2020-12-04T14:34:27+08:00][error] [10500]method not exist:think\db\Query->text[D:\software\thinkphp6\tp\vendor\topthink\think-orm\src\db\BaseQuery.php:117]
+[2020-12-04T14:34:31+08:00][sql] CONNECT:[ UseTime:0.076710s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T14:34:31+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.050052s ]
+[2020-12-04T14:34:31+08:00][sql] SELECT `value`,`audio_url` FROM `polyphone_pinyin` WHERE  `id` > 0 [ RunTime:0.076911s ]
+[2020-12-04T14:35:53+08:00][sql] CONNECT:[ UseTime:0.100644s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T14:35:53+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.067365s ]
+[2020-12-04T14:35:53+08:00][sql] SELECT `value`,`audio_url` FROM `polyphone_pinyin` WHERE  `id` > 0 [ RunTime:0.099134s ]
+[2020-12-04T14:35:53+08:00][sql] CONNECT:[ UseTime:0.091927s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T14:35:53+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.062583s ]
+[2020-12-04T14:35:53+08:00][sql] SELECT `value`,`audio_url` FROM `polyphone_pinyin` WHERE  `id` > 0 [ RunTime:0.090058s ]
+[2020-12-04T14:36:11+08:00][sql] CONNECT:[ UseTime:0.174845s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T14:36:11+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.055674s ]
+[2020-12-04T14:36:11+08:00][sql] SELECT `value`,`audio_url` FROM `polyphone_pinyin` WHERE  `id` > 0 [ RunTime:0.079083s ]
+[2020-12-04T14:36:11+08:00][error] [2]Invalid argument supplied for foreach()[D:\software\thinkphp6\tp\app\controller\Index.php:52]
+[2020-12-04T14:36:27+08:00][sql] CONNECT:[ UseTime:0.085435s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T14:36:27+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.058459s ]
+[2020-12-04T14:36:27+08:00][sql] SELECT `value`,`audio_url` FROM `polyphone_pinyin` WHERE  `id` > 0 [ RunTime:0.086204s ]
+[2020-12-04T14:36:27+08:00][error] [2]Invalid argument supplied for foreach()[D:\software\thinkphp6\tp\app\controller\Index.php:52]
+[2020-12-04T14:37:03+08:00][sql] CONNECT:[ UseTime:0.097306s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T14:37:03+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.067698s ]
+[2020-12-04T14:37:03+08:00][sql] SELECT `value`,`audio_url` FROM `polyphone_pinyin` WHERE  `id` > 0 [ RunTime:0.098476s ]
+[2020-12-04T14:37:41+08:00][error] [0]语法错误: unexpected ';', expecting ')'[D:\software\thinkphp6\tp\app\controller\Index.php:51]
+[2020-12-04T14:38:04+08:00][sql] CONNECT:[ UseTime:0.081544s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T14:38:04+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.054961s ]
+[2020-12-04T14:38:04+08:00][sql] SELECT `value`,`audio_url` FROM `polyphone_pinyin` WHERE  `id` > 0 [ RunTime:0.082023s ]
+[2020-12-04T14:38:04+08:00][sql] SELECT `value`,`audio_url` FROM `polyphone_pinyin` WHERE  `id` > 0 [ RunTime:0.055131s ]
+[2020-12-04T14:38:18+08:00][sql] CONNECT:[ UseTime:0.090893s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T14:38:18+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.060739s ]
+[2020-12-04T14:38:18+08:00][sql] SELECT `value`,`audio_url` FROM `polyphone_pinyin` WHERE  `id` > 0 [ RunTime:0.096417s ]
+[2020-12-04T15:16:51+08:00][sql] CONNECT:[ UseTime:0.084697s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T15:16:51+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.054323s ]
+[2020-12-04T15:18:30+08:00][sql] CONNECT:[ UseTime:0.089316s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T15:18:30+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.057582s ]
+[2020-12-04T15:18:30+08:00][sql] INSERT INTO `polyphone_pinyin` SET `value` = 'test' [ RunTime:0.057181s ]
+[2020-12-04T15:20:33+08:00][sql] CONNECT:[ UseTime:0.082522s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T15:20:33+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.053981s ]
+[2020-12-04T15:20:33+08:00][sql] UPDATE `polyphone_pinyin`  SET `value` = 123  WHERE  `id` = 410 [ RunTime:0.053945s ]
+[2020-12-04T15:22:14+08:00][sql] CONNECT:[ UseTime:0.081267s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T15:22:14+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.052307s ]
+[2020-12-04T15:22:14+08:00][sql] UPDATE `polyphone_pinyin`  SET `value` = 123  WHERE  `id` = 410 [ RunTime:0.052060s ]
+[2020-12-04T15:22:37+08:00][sql] CONNECT:[ UseTime:0.087796s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T15:22:37+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.056617s ]
+[2020-12-04T15:22:37+08:00][sql] UPDATE `polyphone_pinyin`  SET `value` = 123  WHERE  `id` = 410 [ RunTime:0.058218s ]
+[2020-12-04T15:23:21+08:00][sql] CONNECT:[ UseTime:0.087658s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T15:23:21+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.061010s ]
+[2020-12-04T15:23:21+08:00][sql] UPDATE `polyphone_pinyin`  SET `value` = '12345678'  WHERE  `id` = 410 [ RunTime:0.058164s ]
+[2020-12-04T15:23:40+08:00][sql] CONNECT:[ UseTime:0.076378s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T15:23:40+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.050529s ]
+[2020-12-04T15:23:40+08:00][sql] UPDATE `polyphone_pinyin`  SET `value` = 'ASD'  WHERE  `id` = 410 [ RunTime:0.050005s ]
+[2020-12-04T15:27:54+08:00][sql] CONNECT:[ UseTime:0.087572s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T15:27:54+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.056113s ]
+[2020-12-04T15:27:54+08:00][sql] UPDATE `polyphone_pinyin`  SET `value` = NULL  WHERE  `id` = 410 [ RunTime:0.058285s ]
+[2020-12-04T15:30:53+08:00][sql] CONNECT:[ UseTime:0.088342s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T15:30:53+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.059009s ]
+[2020-12-04T15:30:53+08:00][sql] UPDATE `polyphone_pinyin`  SET `value` = NULL  WHERE  `id` = 410 [ RunTime:0.059959s ]
+[2020-12-04T15:36:08+08:00][sql] CONNECT:[ UseTime:0.094470s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T15:36:08+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.063337s ]
+[2020-12-04T15:36:08+08:00][sql] UPDATE `polyphone_pinyin`  SET `value` = '111'  WHERE  `id` = 410 [ RunTime:0.060671s ]
+[2020-12-04T15:43:21+08:00][sql] CONNECT:[ UseTime:0.087661s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T15:43:21+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.056174s ]
+[2020-12-04T15:43:21+08:00][sql] UPDATE `polyphone_pinyin`  SET `value` = NULL  WHERE  `id` = 410 [ RunTime:0.057965s ]
+[2020-12-04T15:43:50+08:00][sql] CONNECT:[ UseTime:0.089216s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T15:43:50+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.058546s ]
+[2020-12-04T15:43:50+08:00][sql] UPDATE `polyphone_pinyin`  SET `value` = NULL  WHERE  `id` = 410 [ RunTime:0.057927s ]
+[2020-12-04T15:45:14+08:00][sql] CONNECT:[ UseTime:0.077418s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T15:45:14+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.052646s ]
+[2020-12-04T15:45:14+08:00][sql] UPDATE `polyphone_pinyin`  SET `value` = '111'  WHERE  `id` = 410 [ RunTime:0.051015s ]
+[2020-12-04T15:45:23+08:00][sql] CONNECT:[ UseTime:0.087682s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T15:45:23+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.058555s ]
+[2020-12-04T15:45:23+08:00][sql] UPDATE `polyphone_pinyin`  SET `value` = '222'  WHERE  `id` = 410 [ RunTime:0.055883s ]
+[2020-12-04T15:46:15+08:00][sql] CONNECT:[ UseTime:0.089338s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T15:46:15+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.059566s ]
+[2020-12-04T15:46:15+08:00][sql] UPDATE `polyphone_pinyin`  SET `value` = '222'  WHERE  `id` = 410 [ RunTime:0.059404s ]
+[2020-12-04T15:47:44+08:00][sql] CONNECT:[ UseTime:0.092685s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T15:47:44+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.061480s ]
+[2020-12-04T15:47:44+08:00][sql] UPDATE `polyphone_pinyin`  SET `value` = '222'  WHERE  `id` = 410 [ RunTime:0.059698s ]
+[2020-12-04T15:47:45+08:00][sql] CONNECT:[ UseTime:0.093727s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T15:47:45+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.061716s ]
+[2020-12-04T15:47:45+08:00][sql] UPDATE `polyphone_pinyin`  SET `value` = '222'  WHERE  `id` = 410 [ RunTime:0.061678s ]
+[2020-12-04T15:47:55+08:00][sql] CONNECT:[ UseTime:0.088999s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T15:47:55+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.061989s ]
+[2020-12-04T15:47:55+08:00][sql] UPDATE `polyphone_pinyin`  SET `value` = '222'  WHERE  `id` = 410 [ RunTime:0.060108s ]
+[2020-12-04T15:49:24+08:00][sql] CONNECT:[ UseTime:0.094423s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T15:49:24+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.060966s ]
+[2020-12-04T15:49:24+08:00][sql] UPDATE `polyphone_pinyin`  SET `value` = '222'  WHERE  `id` = 410 [ RunTime:0.060130s ]
+[2020-12-04T15:49:41+08:00][sql] CONNECT:[ UseTime:0.090473s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T15:49:41+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.058221s ]
+[2020-12-04T15:49:41+08:00][sql] UPDATE `polyphone_pinyin`  SET `value` = '222'  WHERE  `id` = 410 [ RunTime:0.059780s ]
+[2020-12-04T15:51:08+08:00][sql] CONNECT:[ UseTime:0.079922s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T15:51:08+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.050852s ]
+[2020-12-04T15:51:08+08:00][sql] UPDATE `polyphone_pinyin`  SET `value` = NULL  WHERE  `id` = 410 [ RunTime:0.051621s ]
+[2020-12-04T16:00:19+08:00][sql] CONNECT:[ UseTime:0.081283s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T16:00:19+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.054018s ]
+[2020-12-04T16:00:19+08:00][sql] UPDATE `polyphone_pinyin`  SET `value` = '222'  WHERE  `id` = 410 [ RunTime:0.053632s ]
+[2020-12-04T16:21:38+08:00][sql] CONNECT:[ UseTime:0.083825s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T16:21:38+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.053711s ]
+[2020-12-04T16:21:38+08:00][sql] UPDATE `polyphone_pinyin`  SET `value` = '222'  WHERE  `id` = 410 [ RunTime:0.053269s ]
+[2020-12-04T16:21:50+08:00][sql] CONNECT:[ UseTime:0.082120s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T16:21:50+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.057559s ]
+[2020-12-04T16:21:50+08:00][sql] UPDATE `polyphone_pinyin`  SET `value` = '222'  WHERE  `id` = 410 [ RunTime:0.053835s ]
+[2020-12-04T16:22:54+08:00][sql] CONNECT:[ UseTime:0.086681s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T16:22:54+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.056966s ]
+[2020-12-04T16:22:54+08:00][sql] UPDATE `polyphone_pinyin`  SET `value` = '222'  WHERE  `id` = 410 [ RunTime:0.056182s ]
+[2020-12-04T16:24:52+08:00][sql] CONNECT:[ UseTime:0.088396s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T16:24:52+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.057963s ]
+[2020-12-04T16:24:52+08:00][sql] UPDATE `polyphone_pinyin`  SET `value` = '222'  WHERE  `id` = 410 [ RunTime:0.057072s ]
+[2020-12-04T16:28:25+08:00][sql] CONNECT:[ UseTime:0.089100s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T16:28:25+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.060343s ]
+[2020-12-04T16:28:53+08:00][sql] CONNECT:[ UseTime:0.086992s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T16:28:53+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.058731s ]
+[2020-12-04T16:29:34+08:00][sql] CONNECT:[ UseTime:0.093183s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T16:29:34+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.059194s ]
+[2020-12-04T16:37:41+08:00][sql] CONNECT:[ UseTime:0.090933s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T16:37:41+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.060119s ]
+[2020-12-04T16:38:02+08:00][sql] CONNECT:[ UseTime:0.077568s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T16:38:02+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.054290s ]
+[2020-12-04T16:39:28+08:00][sql] CONNECT:[ UseTime:0.082143s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T16:39:28+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.053320s ]
+[2020-12-04T16:45:50+08:00][error] [0]Class 'app\controller\controller' not found[D:\software\thinkphp6\tp\app\controller\Index.php:46]
+[2020-12-04T16:57:38+08:00][error] [0]Too few arguments to function think\Validate::rule(), 0 passed and at least 1 expected[D:\software\thinkphp6\tp\vendor\topthink\framework\src\think\Validate.php:286]
+[2020-12-04T16:58:27+08:00][sql] CONNECT:[ UseTime:0.084672s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T16:58:27+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.053887s ]
+[2020-12-04T16:58:27+08:00][sql] UPDATE `polyphone_pinyin`  SET `value` = '222'  WHERE  `id` = 410 [ RunTime:0.054669s ]
+[2020-12-04T17:06:40+08:00][sql] CONNECT:[ UseTime:0.084078s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T17:06:40+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.056407s ]
+[2020-12-04T17:06:40+08:00][sql] UPDATE `polyphone_pinyin`  SET `value` = '222'  WHERE  `id` = 410 [ RunTime:0.055584s ]
+[2020-12-04T17:14:07+08:00][error] [8]未定义变量: res[D:\software\thinkphp6\tp\app\controller\Index.php:88]
+[2020-12-04T17:17:15+08:00][sql] CONNECT:[ UseTime:0.088142s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T17:17:15+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.056632s ]
+[2020-12-04T17:17:15+08:00][sql] UPDATE `polyphone_pinyin`  SET `value` = '222' , `audio_url` = 'http://www.yueyv.com/sound/mp3/ding1.mp3'  WHERE  `id` = 410 [ RunTime:0.060042s ]
+[2020-12-04T17:20:02+08:00][sql] CONNECT:[ UseTime:0.086638s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T17:20:02+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.057980s ]
+[2020-12-04T17:20:02+08:00][sql] UPDATE `polyphone_pinyin`  SET `value` = '222' , `audio_url` = 'http://www.yueyv.com/sound/mp3/ding1.mp3'  WHERE  `id` = 410 [ RunTime:0.057086s ]
+[2020-12-04T17:20:57+08:00][sql] CONNECT:[ UseTime:0.075509s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T17:20:57+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.050517s ]
+[2020-12-04T17:20:57+08:00][sql] UPDATE `polyphone_pinyin`  SET `value` = '222' , `audio_url` = 'http://www.yueyv.com/sound/mp3/ding1.mp3'  WHERE  `id` = 410 [ RunTime:0.049856s ]
+[2020-12-04T17:21:55+08:00][sql] CONNECT:[ UseTime:0.075627s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T17:21:55+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.050119s ]
+[2020-12-04T17:21:55+08:00][sql] UPDATE `polyphone_pinyin`  SET `value` = '222' , `audio_url` = 'http://www.yueyv.com/sound/mp3/ding1.mp3'  WHERE  `id` = 410 [ RunTime:0.049790s ]
+[2020-12-04T17:22:02+08:00][sql] CONNECT:[ UseTime:0.091431s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T17:22:02+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.061093s ]
+[2020-12-04T17:22:02+08:00][sql] UPDATE `polyphone_pinyin`  SET `value` = '223' , `audio_url` = 'http://www.yueyv.com/sound/mp3/ding1.mp3'  WHERE  `id` = 410 [ RunTime:0.060645s ]
+[2020-12-04T17:35:21+08:00][sql] CONNECT:[ UseTime:0.078074s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T17:35:21+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.052775s ]
+[2020-12-04T17:35:21+08:00][sql] UPDATE `polyphone_pinyin`  SET `value` = '223' , `audio_url` = 'http://www.yueyv.com/sound/mp3/ding1.mp3'  WHERE  `id` = 410 [ RunTime:0.050040s ]
+[2020-12-04T17:36:32+08:00][sql] CONNECT:[ UseTime:0.087734s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T17:36:32+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.057335s ]
+[2020-12-04T17:36:32+08:00][error] [0]Argument 1 passed to think\db\BaseQuery::insert() must be of the type array, object given[D:\software\thinkphp6\tp\vendor\topthink\think-orm\src\db\BaseQuery.php:954]
+[2020-12-04T17:38:04+08:00][sql] CONNECT:[ UseTime:0.088448s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T17:38:04+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.059376s ]
+[2020-12-04T17:38:04+08:00][error] [0]Argument 1 passed to think\db\BaseQuery::insert() must be of the type array, object given[D:\software\thinkphp6\tp\vendor\topthink\think-orm\src\db\BaseQuery.php:954]
+[2020-12-04T17:39:10+08:00][sql] CONNECT:[ UseTime:0.099877s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T17:39:10+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.063450s ]
+[2020-12-04T17:39:10+08:00][error] [0]Argument 1 passed to think\db\BaseQuery::insert() must be of the type array, object given[D:\software\thinkphp6\tp\vendor\topthink\think-orm\src\db\BaseQuery.php:954]
+[2020-12-04T17:41:43+08:00][sql] CONNECT:[ UseTime:0.086342s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T17:41:43+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.058544s ]
+[2020-12-04T17:41:43+08:00][error] [0]Argument 1 passed to think\db\BaseQuery::insert() must be of the type array, object given[D:\software\thinkphp6\tp\vendor\topthink\think-orm\src\db\BaseQuery.php:954]
+[2020-12-04T17:41:47+08:00][sql] CONNECT:[ UseTime:0.087355s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T17:41:47+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.064486s ]
+[2020-12-04T17:41:47+08:00][error] [0]Argument 1 passed to think\db\BaseQuery::insert() must be of the type array, object given[D:\software\thinkphp6\tp\vendor\topthink\think-orm\src\db\BaseQuery.php:954]
+[2020-12-04T17:45:06+08:00][sql] CONNECT:[ UseTime:0.082118s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T17:45:06+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.054259s ]
+[2020-12-04T17:45:06+08:00][sql] INSERT INTO `polyphone_pinyin` SET `value` = '223' , `audio_url` = 'http://www.yueyv.com/sound/mp3/ding1.mp3' [ RunTime:0.055848s ]
+[2020-12-04T17:47:34+08:00][sql] CONNECT:[ UseTime:0.083872s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T17:47:34+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.055091s ]
+[2020-12-04T17:47:34+08:00][sql] INSERT INTO `polyphone_pinyin` SET `value` = '224' , `audio_url` = 'http://www.yueyv.com/sound/mp3/ding1.mp3' [ RunTime:0.056620s ]
+[2020-12-04T17:48:42+08:00][sql] CONNECT:[ UseTime:0.089753s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T17:48:42+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.059077s ]
+[2020-12-04T17:48:42+08:00][sql] INSERT INTO `polyphone_pinyin` SET `value` = '224' , `audio_url` = 'http://www.yueyv.com/sound/mp3/ding1.mp3' [ RunTime:0.060409s ]
+[2020-12-04T17:49:05+08:00][sql] CONNECT:[ UseTime:0.093110s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T17:49:05+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.054698s ]
+[2020-12-04T17:49:05+08:00][sql] INSERT INTO `polyphone_pinyin` SET `value` = '224' , `audio_url` = 'http://www.yueyv.com/sound/mp3/ding1.mp3' [ RunTime:0.054591s ]
+[2020-12-04T17:53:39+08:00][sql] CONNECT:[ UseTime:0.091228s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T17:53:39+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.059235s ]
+[2020-12-04T17:54:52+08:00][sql] CONNECT:[ UseTime:1.099696s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T17:54:52+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.058966s ]
+[2020-12-04T17:54:52+08:00][error] [10500]method not exist:think\db\Query->show[D:\software\thinkphp6\tp\vendor\topthink\think-orm\src\db\BaseQuery.php:117]
+[2020-12-04T17:55:05+08:00][sql] CONNECT:[ UseTime:0.083215s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T17:55:05+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.055914s ]
+[2020-12-04T17:55:05+08:00][sql] SELECT * FROM `polyphone_pinyin` WHERE  `id` = 411 LIMIT 1 [ RunTime:0.054571s ]
+[2020-12-04T17:58:37+08:00][sql] CONNECT:[ UseTime:0.081451s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T17:58:37+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.052515s ]
+[2020-12-04T17:58:37+08:00][sql] SELECT * FROM `polyphone_pinyin` WHERE  `id` = 411 LIMIT 1 [ RunTime:0.051350s ]
+[2020-12-04T17:59:04+08:00][sql] CONNECT:[ UseTime:0.085334s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T17:59:04+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.058124s ]
+[2020-12-04T17:59:04+08:00][sql] SELECT * FROM `polyphone_pinyin` WHERE  `id` = 411 LIMIT 1 [ RunTime:0.057459s ]
+[2020-12-04T17:59:55+08:00][sql] CONNECT:[ UseTime:0.089737s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T17:59:55+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.058629s ]
+[2020-12-04T17:59:55+08:00][sql] SELECT * FROM `polyphone_pinyin` WHERE  `id` = 411 LIMIT 1 [ RunTime:0.060177s ]
+[2020-12-04T18:00:20+08:00][sql] CONNECT:[ UseTime:0.075759s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:00:20+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.050611s ]
+[2020-12-04T18:00:20+08:00][sql] SELECT * FROM `polyphone_pinyin` WHERE  `id` = dou2 LIMIT 1 [ RunTime:0.050063s ]
+[2020-12-04T18:01:01+08:00][sql] CONNECT:[ UseTime:0.088124s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:01:01+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.059110s ]
+[2020-12-04T18:01:01+08:00][sql] SELECT * FROM `polyphone_pinyin` WHERE  `id` = dou2 LIMIT 1 [ RunTime:0.056952s ]
+[2020-12-04T18:01:32+08:00][sql] CONNECT:[ UseTime:0.086184s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:01:32+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.055611s ]
+[2020-12-04T18:01:32+08:00][sql] UPDATE `polyphone_pinyin`  SET `value` = '223' , `audio_url` = 'http://www.yueyv.com/sound/mp3/ding1.mp3'  WHERE  `id` = 410 [ RunTime:0.058237s ]
+[2020-12-04T18:02:05+08:00][sql] CONNECT:[ UseTime:0.090703s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:02:05+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.058848s ]
+[2020-12-04T18:02:05+08:00][sql] UPDATE `polyphone_pinyin`  SET `value` = '223' , `audio_url` = 'http://www.yueyv.com/sound/mp3/ding1.mp3'  WHERE  `id` = 410 [ RunTime:0.057302s ]
+[2020-12-04T18:02:40+08:00][sql] CONNECT:[ UseTime:0.096134s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:02:40+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.061275s ]
+[2020-12-04T18:02:40+08:00][sql] SELECT * FROM `polyphone_pinyin` WHERE  `id` = dou2 LIMIT 1 [ RunTime:0.061128s ]
+[2020-12-04T18:04:19+08:00][sql] CONNECT:[ UseTime:0.097660s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:04:19+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.068063s ]
+[2020-12-04T18:04:19+08:00][sql] SELECT * FROM `polyphone_pinyin` WHERE  `id` = dou2 [ RunTime:0.067758s ]
+[2020-12-04T18:11:40+08:00][sql] CONNECT:[ UseTime:0.084167s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:11:40+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.055844s ]
+[2020-12-04T18:11:40+08:00][sql] SELECT * FROM `polyphone_pinyin` WHERE  `value` = 'dou2' LIMIT 1 [ RunTime:0.055471s ]
+[2020-12-04T18:13:43+08:00][sql] CONNECT:[ UseTime:0.085288s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:13:43+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.059485s ]
+[2020-12-04T18:13:43+08:00][sql] DELETE FROM `polyphone_pinyin` WHERE  `id` IS NULL  AND `value` IS NULL  AND `audio_url` = 'http://www.yueyv.com/sound/mp3/ding1.mp3' [ RunTime:0.055680s ]
+[2020-12-04T18:14:12+08:00][sql] CONNECT:[ UseTime:0.083535s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:14:12+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.056473s ]
+[2020-12-04T18:14:12+08:00][sql] DELETE FROM `polyphone_pinyin` WHERE  `id` = 411  AND `value` IS NULL  AND `audio_url` = 'http://www.yueyv.com/sound/mp3/ding1.mp3' [ RunTime:0.056976s ]
+[2020-12-04T18:15:39+08:00][sql] CONNECT:[ UseTime:0.074607s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:15:39+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.049875s ]
+[2020-12-04T18:15:39+08:00][sql] DELETE FROM `polyphone_pinyin` WHERE  `id` = 411 [ RunTime:0.049437s ]
+[2020-12-04T18:32:55+08:00][sql] CONNECT:[ UseTime:0.086621s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:32:55+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.059345s ]
+[2020-12-04T18:32:55+08:00][sql] INSERT INTO `polyphone_pinyin` SET `value` = '224' , `audio_url` = 'http://www.yueyv.com/sound/mp3/ding1.mp3' [ RunTime:0.059504s ]
+[2020-12-04T18:33:08+08:00][sql] CONNECT:[ UseTime:0.076932s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:33:08+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.049792s ]
+[2020-12-04T18:33:08+08:00][sql] INSERT INTO `polyphone_pinyin` SET `value` = '224' , `audio_url` = 'http://www.yueyv.com/sound/mp3/ding1.mp3' [ RunTime:0.052231s ]
+[2020-12-04T18:33:29+08:00][sql] CONNECT:[ UseTime:0.092136s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:33:29+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.064092s ]
+[2020-12-04T18:33:29+08:00][sql] UPDATE `polyphone_pinyin`  SET `value` = '223' , `audio_url` = 'http://www.yueyv.com/sound/mp3/ding1.mp3'  WHERE  `id` = 410 [ RunTime:0.062291s ]
+[2020-12-04T18:33:32+08:00][sql] CONNECT:[ UseTime:0.082756s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:33:32+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.053463s ]
+[2020-12-04T18:33:32+08:00][sql] INSERT INTO `polyphone_pinyin` SET `value` = '224' , `audio_url` = 'http://www.yueyv.com/sound/mp3/ding1.mp3' [ RunTime:0.056720s ]
+[2020-12-04T18:33:43+08:00][sql] CONNECT:[ UseTime:0.098985s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:33:43+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.066449s ]
+[2020-12-04T18:33:43+08:00][sql] INSERT INTO `polyphone_pinyin` SET `value` = '224' , `audio_url` = 'http://www.yueyv.com/sound/mp3/ding1.mp3' [ RunTime:0.066127s ]
+[2020-12-04T18:34:02+08:00][sql] CONNECT:[ UseTime:0.076744s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:34:02+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.052512s ]
+[2020-12-04T18:34:02+08:00][sql] INSERT INTO `polyphone_pinyin` SET `value` = '224' , `audio_url` = 'http://www.yueyv.com/sound/mp3/ding1.mp3' [ RunTime:0.054440s ]
+[2020-12-04T18:34:55+08:00][sql] CONNECT:[ UseTime:0.100721s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:34:55+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.065164s ]
+[2020-12-04T18:34:55+08:00][sql] DELETE FROM `polyphone_pinyin` WHERE  `id` = 411 [ RunTime:0.064585s ]
+[2020-12-04T18:35:10+08:00][sql] CONNECT:[ UseTime:0.087443s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:35:10+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.060523s ]
+[2020-12-04T18:35:10+08:00][sql] DELETE FROM `polyphone_pinyin` WHERE  `id` = 411 [ RunTime:0.056842s ]
+[2020-12-04T18:35:32+08:00][sql] CONNECT:[ UseTime:0.094854s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:35:32+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.061836s ]
+[2020-12-04T18:35:32+08:00][sql] SELECT * FROM `polyphone_pinyin` WHERE  `value` = 'dou2' LIMIT 1 [ RunTime:0.062986s ]
+[2020-12-04T18:36:15+08:00][sql] CONNECT:[ UseTime:0.096825s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:36:15+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.063904s ]
+[2020-12-04T18:36:15+08:00][sql] INSERT INTO `polyphone_pinyin` SET `value` = '224' , `audio_url` = 'http://www.yueyv.com/sound/mp3/ding1.mp3' [ RunTime:0.065181s ]
+[2020-12-04T18:36:17+08:00][sql] CONNECT:[ UseTime:0.089338s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:36:17+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.058089s ]
+[2020-12-04T18:36:17+08:00][sql] DELETE FROM `polyphone_pinyin` WHERE  `id` = 411 [ RunTime:0.060295s ]
+[2020-12-04T18:36:21+08:00][sql] CONNECT:[ UseTime:0.076066s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:36:21+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.050968s ]
+[2020-12-04T18:36:21+08:00][sql] DELETE FROM `polyphone_pinyin` WHERE  `id` = 411 [ RunTime:0.049043s ]
+[2020-12-04T18:37:12+08:00][sql] CONNECT:[ UseTime:0.080431s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:37:12+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.053343s ]
+[2020-12-04T18:37:12+08:00][sql] DELETE FROM `polyphone_pinyin` WHERE  `id` = 411 [ RunTime:0.050042s ]
+[2020-12-04T18:38:02+08:00][sql] CONNECT:[ UseTime:0.085763s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:38:02+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.056107s ]
+[2020-12-04T18:38:02+08:00][sql] DELETE FROM `polyphone_pinyin` WHERE  `id` = 411 [ RunTime:0.058295s ]
+[2020-12-04T18:38:10+08:00][sql] CONNECT:[ UseTime:0.090589s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:38:10+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.060262s ]
+[2020-12-04T18:38:10+08:00][sql] DELETE FROM `polyphone_pinyin` WHERE  `id` = 411 [ RunTime:0.060847s ]
+[2020-12-04T18:38:24+08:00][sql] CONNECT:[ UseTime:0.080626s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:38:24+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.052297s ]
+[2020-12-04T18:38:24+08:00][sql] INSERT INTO `polyphone_pinyin` SET `value` = '224' , `audio_url` = 'http://www.yueyv.com/sound/mp3/ding1.mp3' [ RunTime:0.053190s ]
+[2020-12-04T18:38:31+08:00][sql] CONNECT:[ UseTime:0.090530s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:38:31+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.059819s ]
+[2020-12-04T18:38:31+08:00][sql] INSERT INTO `polyphone_pinyin` SET `value` = '224' , `audio_url` = 'http://www.yueyv.com/sound/mp3/ding1.mp3' [ RunTime:0.061219s ]
+[2020-12-04T18:38:54+08:00][sql] CONNECT:[ UseTime:0.099597s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:38:54+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.067517s ]
+[2020-12-04T18:38:54+08:00][sql] DELETE FROM `polyphone_pinyin` WHERE  `id` = 411 [ RunTime:0.065285s ]
+[2020-12-04T18:41:33+08:00][sql] CONNECT:[ UseTime:0.096771s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:41:33+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.066305s ]
+[2020-12-04T18:41:33+08:00][sql] UPDATE `polyphone_pinyin`  SET `value` = '223' , `audio_url` = 'http://www.yueyv.com/sound/mp3/ding1.mp3'  WHERE  `id` = 410 [ RunTime:0.065167s ]
+[2020-12-04T18:41:46+08:00][sql] CONNECT:[ UseTime:0.081870s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:41:46+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.057964s ]
+[2020-12-04T18:41:46+08:00][sql] INSERT INTO `polyphone_pinyin` SET `value` = '224' , `audio_url` = 'http://www.yueyv.com/sound/mp3/ding1.mp3' [ RunTime:0.056379s ]
+[2020-12-04T18:44:04+08:00][sql] CONNECT:[ UseTime:0.094404s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:44:04+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.063943s ]
+[2020-12-04T18:44:04+08:00][sql] INSERT INTO `polyphone_pinyin` SET `value` = '224' , `audio_url` = 'http://www.yueyv.com/sound/mp3/ding1.mp3' [ RunTime:0.066521s ]
+[2020-12-04T18:45:30+08:00][sql] CONNECT:[ UseTime:0.094313s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:45:30+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.062958s ]
+[2020-12-04T18:45:30+08:00][sql] DELETE FROM `polyphone_pinyin` WHERE  `id` = 411 [ RunTime:0.059997s ]
+[2020-12-04T18:45:52+08:00][sql] CONNECT:[ UseTime:0.088126s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:45:52+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.056658s ]
+[2020-12-04T18:45:52+08:00][sql] DELETE FROM `polyphone_pinyin` WHERE  `id` = 424 [ RunTime:0.060028s ]
+[2020-12-04T18:46:02+08:00][sql] CONNECT:[ UseTime:0.091556s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:46:02+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.059411s ]
+[2020-12-04T18:46:02+08:00][sql] INSERT INTO `polyphone_pinyin` SET `value` = '224' , `audio_url` = 'http://www.yueyv.com/sound/mp3/ding1.mp3' [ RunTime:0.062567s ]
+[2020-12-04T18:47:48+08:00][sql] CONNECT:[ UseTime:0.084032s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:47:48+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.054843s ]
+[2020-12-04T18:47:48+08:00][sql] SELECT * FROM `polyphone_pinyin` WHERE  `id` = 424 LIMIT 1 [ RunTime:0.053141s ]
+[2020-12-04T18:47:48+08:00][sql] DELETE FROM `polyphone_pinyin` WHERE  `id` = 424 [ RunTime:0.053944s ]
+[2020-12-04T18:47:54+08:00][sql] CONNECT:[ UseTime:0.091152s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:47:54+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.058734s ]
+[2020-12-04T18:47:54+08:00][sql] SELECT * FROM `polyphone_pinyin` WHERE  `id` = 425 LIMIT 1 [ RunTime:0.062152s ]
+[2020-12-04T18:47:54+08:00][sql] DELETE FROM `polyphone_pinyin` WHERE  `id` = 425 [ RunTime:0.059945s ]
+[2020-12-04T18:48:19+08:00][sql] CONNECT:[ UseTime:0.086436s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:48:19+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.057472s ]
+[2020-12-04T18:48:19+08:00][sql] INSERT INTO `polyphone_pinyin` SET `value` = '224' , `audio_url` = 'http://www.yueyv.com/sound/mp3/ding1.mp3' [ RunTime:0.059075s ]
+[2020-12-04T18:48:23+08:00][sql] CONNECT:[ UseTime:0.077169s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:48:23+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.051073s ]
+[2020-12-04T18:48:23+08:00][sql] SELECT * FROM `polyphone_pinyin` WHERE  `id` = 426 LIMIT 1 [ RunTime:0.048635s ]
+[2020-12-04T18:48:23+08:00][sql] DELETE FROM `polyphone_pinyin` WHERE  `id` = 426 [ RunTime:0.052078s ]
+[2020-12-04T18:48:40+08:00][sql] CONNECT:[ UseTime:0.084354s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:48:40+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.055804s ]
+[2020-12-04T18:48:40+08:00][sql] SELECT * FROM `polyphone_pinyin` WHERE  `value` = 'dou2' LIMIT 1 [ RunTime:0.055908s ]
+[2020-12-04T18:49:15+08:00][sql] CONNECT:[ UseTime:0.081122s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:49:15+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.052388s ]
+[2020-12-04T18:49:15+08:00][sql] INSERT INTO `polyphone_pinyin` SET `value` = '224' , `audio_url` = 'http://www.yueyv.com/sound/mp3/ding1.mp3' [ RunTime:0.055313s ]
+[2020-12-04T18:49:17+08:00][sql] CONNECT:[ UseTime:0.078789s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:49:17+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.053617s ]
+[2020-12-04T18:49:17+08:00][sql] INSERT INTO `polyphone_pinyin` SET `value` = '224' , `audio_url` = 'http://www.yueyv.com/sound/mp3/ding1.mp3' [ RunTime:0.056529s ]
+[2020-12-04T18:49:23+08:00][sql] CONNECT:[ UseTime:0.087681s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:49:23+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.057234s ]
+[2020-12-04T18:49:23+08:00][sql] SELECT * FROM `polyphone_pinyin` WHERE  `id` = 427 LIMIT 1 [ RunTime:0.055231s ]
+[2020-12-04T18:49:49+08:00][sql] CONNECT:[ UseTime:0.100172s ] mysql:host=47.111.123.34;port=3306;dbname=test-cas-export;charset=utf8
+[2020-12-04T18:49:49+08:00][sql] SHOW FULL COLUMNS FROM `polyphone_pinyin` [ RunTime:0.067350s ]
+[2020-12-04T18:49:49+08:00][sql] DELETE FROM `polyphone_pinyin` WHERE  `id` = 428 [ RunTime:0.065994s ]
